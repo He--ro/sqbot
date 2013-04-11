@@ -1,4 +1,4 @@
-# Description:
+ Description:
 #   特定の文字に反応して人なつっこくあいさつを返します
 #
 # Dependencies:
@@ -26,6 +26,7 @@ module.exports = (robot) ->
     '(☝ ՞ਊ ՞)☝',
     '(◞≼●≽◟◞౪◟◞≼●≽◟)',
     'ﾜﾝ',
+    'Yes,I am!',
   ]
 
   robot.hear /(こと.+です[！!。])|(よろしくお(ねが|願)いします)|((こんに?)?ちわ(っす)?)/i, (msg) ->
