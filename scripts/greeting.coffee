@@ -27,6 +27,7 @@ module.exports = (robot) ->
     '(◞≼●≽◟◞౪◟◞≼●≽◟)',
     'ﾜﾝ',
     'Yes,I am!!',
+    'Year!!Hellow!!My Friend!!',
   ]
 
   robot.hear /(こと.+です[！!。])|(よろしくお(ねが|願)いします)|((こんに?)?ちわ(っす)?)/i, (msg) ->
